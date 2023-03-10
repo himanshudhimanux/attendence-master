@@ -6,6 +6,7 @@ import Attendence from './pages/Attendence';
 import Staff from './pages/Staff'
 import AllReports from './pages/AllReports';
 import Setting from './pages/Setting';
+import Layout from './components/Layout';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <Route path="/all-reports" element={<AllReports/>} />
           <Route path="/settings" element={<Setting/>} />
         </Routes>
-
+      <Layout/>
     </>
   );
 }

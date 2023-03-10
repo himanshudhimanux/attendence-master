@@ -1,9 +1,15 @@
 /* Side menu css  */
 
+
+body{
+    padding: 20px 20px 20px 280px;
+}
+
 .sidemenu{
     width: 250px;
     background-color: #252525;
-    position: fixed;
+    position: absolute;
+    top: 0;
     left: 0;
     height: 100%;
 }
@@ -15,6 +21,7 @@
     font-weight: 600;
     color: #fafafa;
     cursor: pointer;
+    text-decoration: none;
 }
 .sidemenu>.side-item>.sidemenu-icon{
     font-size: 22px;
