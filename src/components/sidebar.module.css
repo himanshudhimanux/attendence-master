@@ -1,0 +1,18 @@
+
+.SidemenuHeader{
+    font-size: 22px;
+    margin: 0;
+    padding-left: 10px;
+    border-radius: 0;
+}
+
+.SidemenuAccordion{
+    border-radius: 0 !important;
+    background-color: greenyellow;
+}
+
+.AddnewBusiness{
+    width: 100%;
+    vertical-align: middle;
+    padding: 12px;
+}

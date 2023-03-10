@@ -1,0 +1,32 @@
+/* Side menu css  */
+
+.sidemenu{
+    width: 250px;
+    background-color: #252525;
+    position: fixed;
+    left: 0;
+    height: 100%;
+}
+
+.sidemenu>.side-item{
+    padding: 15px 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #fafafa;
+    cursor: pointer;
+}
+.sidemenu>.side-item>.sidemenu-icon{
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.sidemenu>.side-item:hover{
+    background-color: rgba(172, 255, 47, 0.5);
+}
+
+.sidemenu>Accordion>Accordion.Header{
+    font-weight: 700;
+    font-size: 24px;
+}
+
